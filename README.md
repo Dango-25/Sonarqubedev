@@ -3,14 +3,14 @@ This project is to facilitate hosting [SonarQube](https://www.sonarqube.org/) in
 
 This project uses the embedded database. It is recommended for production to move to a proper database (MSSQL, Oracle, MySQL, Postgre) which can also be a hosted in Azure.
 Dango-25/Sonarqubedev/
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSSonarqubedev%2Fmaster%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSonarqubedev%2Fmaster%2Fazuredeploy.json)
 
 
 ## Azure Clouds
-[Deploy to Azure Public Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSSonarqubedev%2Fmaster%2Fazuredeploy.json)  
-[Deploy to Azure US Government Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSSonarqubedev%2Fmaster%2Fazuredeploy.json)  
-[Deploy to Azure Germany Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSSonarqubedev%2Fmaster%2Fazuredeploy.json  
-[Deploy to Azure China Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSSonarqubedev%2Fmaster%2Fazuredeploy.json)
+[Deploy to Azure Public Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSonarqubedev%2Fmaster%2Fazuredeploy.json)
+[Deploy to Azure US Government Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSonarqubedev%2Fmaster%2Fazuredeploy.json)  
+[Deploy to Azure Germany Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSonarqubedev%2Fmaster%2Fazuredeploy.json)  
+[Deploy to Azure China Cloud](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDango-25%2FSonarqubedev%2Fmaster%2Fazuredeploy.json)
 
 ## Getting Started
 Use the ***Deploy to Azure*** button above to deploy out an Azure App Service along with the additional files from this project. SonarQube may take up to 10 minutes to start the first time. This will deploy out a Basic (B1) App Service and have SQ use an in-memory database.
