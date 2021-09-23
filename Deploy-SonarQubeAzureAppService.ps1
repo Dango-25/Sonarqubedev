@@ -65,7 +65,7 @@ TrackTimedEvent -InstrumentationKey $ApplicationInsightsApiKey -EventName 'Downl
     $global:progressPreference = 'SilentlyContinue'
     
     if(!$Edition) {
-        $Edition = 'Community'
+        $Edition = 'Developer'
     }
 
     Write-Output "Getting a list of downloads for $Edition edition."

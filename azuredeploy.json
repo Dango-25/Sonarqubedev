@@ -1,5 +1,5 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "hostingPlanName": {
@@ -34,7 +34,7 @@
             "type": "string"
         },
         "repoUrl": {
-            "defaultValue": "https://github.com/vanderby/SonarQube-AzureAppService",
+            "defaultValue": "https://github.com/Dango-25/Sonarqubedev/",
             "type": "string"
         },
         "branch": {
@@ -43,7 +43,7 @@
         },
         "SonarQube Edition": {
             "type": "string",
-            "defaultValue": "Community",
+            "defaultValue": "Developer",
             "allowedValues": [
                 "Community",
                 "Developer",
